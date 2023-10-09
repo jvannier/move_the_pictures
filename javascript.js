@@ -14,7 +14,7 @@ function setImages() {
     /* Set all the images to the images as defined above in the 'images' variable */
     images.forEach((image, index) => {
         let ele = document.querySelector(`#image${index + 1}`).children;
-        ele[0].innerText = image[0];  // Text
+        ele[0].innerText = image[0];  // Text on image
         ele[1].src = `images/${image[1]}`;  // Image
     });
 }
