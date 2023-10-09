@@ -1,0 +1,36 @@
+#userInput {
+    margin-top: 2vh;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.image {
+    height: 30vh;
+}
+
+.top-left {
+    position: absolute;
+    color: black;
+    background: rgba(255, 255, 255, 0.5);  /* White background that is half transparent */
+    margin-left: 1vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+body {
+    background-color: gray;
+}
+
+img {
+    width: 20vw;
+    height: 30vh;
+}
+
+input {
+    margin-right: 0.5vw;
+}
